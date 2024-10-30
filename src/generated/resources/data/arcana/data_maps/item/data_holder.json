@@ -1,0 +1,46 @@
+{
+  "values": {
+    "minecraft:cobblestone": {
+      "states": [
+        {
+          "int": 1,
+          "key": "arcana.state.solid"
+        }
+      ],
+      "structures": [
+        {
+          "key": "arcana.structure.amorphous"
+        }
+      ]
+    },
+    "minecraft:dirt": {
+      "states": [
+        {
+          "int": 1,
+          "key": "arcana.state.solid"
+        }
+      ]
+    },
+    "minecraft:grass_block": {
+      "states": [
+        {
+          "int": 1,
+          "key": "arcana.state.solid"
+        }
+      ]
+    },
+    "minecraft:stone": {
+      "states": [
+        {
+          "int": 1,
+          "key": "arcana.state.solid"
+        }
+      ],
+      "structures": [
+        {
+          "key": "arcana.structure.amorphous"
+        }
+      ]
+    }
+  }
+}
