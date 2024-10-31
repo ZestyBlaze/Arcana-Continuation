@@ -1,7 +1,7 @@
-// 1.21.3	2024-10-30T17:37:28.427976	Registries
-2c8c5a2e34a269e75bc111f1611566ff6d1f37e2 data/arcana/arcana/states/gaseous.json
-4f9e8873b4040b1c85620b0236f9dcc22cb7e1a2 data/arcana/arcana/states/liquid.json
-4e3ec420832265061880b2251affc18abf5697c7 data/arcana/arcana/states/solid.json
+// 1.21.3	2024-10-30T23:04:29.9529214	Registries
+f27e881e0ab3225cabb3982489141d8459a9b851 data/arcana/arcana/states/gaseous.json
+293b93fd29c4fbe23080798af5bfaa4c04bc4148 data/arcana/arcana/states/liquid.json
+b551c43e0796386520920cfdddecafedc77163a3 data/arcana/arcana/states/solid.json
 071b8d0e05d5a241db8cd38adf65171ba9f3487d data/arcana/arcana/structures/amorphous.json
 a3cfff97e4fc8d14c9331b354eab46912aa0ea17 data/arcana/arcana/structures/crystalline.json
 8648361b4c3b93c2940565bd1ef67bc37d702bb9 data/arcana/arcana/structures/highly_viscous.json

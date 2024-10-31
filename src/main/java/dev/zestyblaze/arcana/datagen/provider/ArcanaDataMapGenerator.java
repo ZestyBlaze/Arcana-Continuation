@@ -32,17 +32,178 @@ public class ArcanaDataMapGenerator extends DataMapProvider {
 
         holders.add(Items.COBBLESTONE.builtInRegistryHolder(), new ArcanaDataHolder(
                 List.of(states.getOrThrow(States.SOLID)),
-                List.of(structures.getOrThrow(Structures.AMORPHOUS).value())
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
         ), false);
         holders.add(Items.STONE.builtInRegistryHolder(), new ArcanaDataHolder(
                 List.of(states.getOrThrow(States.SOLID)),
-                List.of(structures.getOrThrow(Structures.AMORPHOUS).value())
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
         ), false);
         holders.add(Items.GRASS_BLOCK.builtInRegistryHolder(), new ArcanaDataHolder(
                 List.of(states.getOrThrow(States.SOLID))
         ), false);
         holders.add(Items.DIRT.builtInRegistryHolder(), new ArcanaDataHolder(
                 List.of(states.getOrThrow(States.SOLID))
+        ), false);
+        holders.add(Items.GRAVEL.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED_ROUGH))
+        ), false);
+        holders.add(Items.GLASS.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.MAGMA_BLOCK.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.NETHERRACK.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.SOUL_SAND.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.NON_NEWTONIAN))
+        ), false);
+        holders.add(Items.BONE_BLOCK.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.END_STONE.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.LAPIS_LAZULI.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.REDSTONE.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED))
+        ), false);
+        holders.add(Items.REDSTONE_BLOCK.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.NETHERITE_INGOT.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.COAL.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.STONE.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.GLOWSTONE.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.GLOWSTONE_DUST.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED))
+        ), false);
+        holders.add(Items.SAND.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED), structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.PRISMARINE_SHARD.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.SNOW.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED), structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.ICE.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.OBSIDIAN.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.DIAMOND.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.EMERALD.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.GOLD_INGOT.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.IRON_INGOT.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.QUARTZ.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.AMETHYST_SHARD.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.COPPER_INGOT.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
+        ), false);
+        holders.add(Items.BLAZE_ROD.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.BLAZE_POWDER.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED))
+        ), false);
+        holders.add(Items.BONE_MEAL.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED))
+        ), false);
+        holders.add(Items.SUGAR.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED))
+        ), false);
+        holders.add(Items.GUNPOWDER.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.PULVERIZED))
+        ), false);
+        holders.add(Items.WATER_BUCKET.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.LIQUID))
+        ), false);
+        holders.add(Items.LAVA_BUCKET.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.LIQUID))
+        ), false);
+        holders.add(Items.MILK_BUCKET.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.LIQUID))
+        ), false);
+        holders.add(Items.SLIME_BALL.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.LIQUID)),
+                List.of(structures.getOrThrow(Structures.SUPER_SATURATED), structures.getOrThrow(Structures.HIGHLY_VISCOUS))
+        ), false);
+        holders.add(Items.MAGMA_CREAM.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.LIQUID)),
+                List.of(structures.getOrThrow(Structures.HIGHLY_VISCOUS))
+        ), false);
+        holders.add(Items.BONE.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.FLINT.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.BREEZE_ROD.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.AMORPHOUS))
+        ), false);
+        holders.add(Items.CLAY_BALL.builtInRegistryHolder(), new ArcanaDataHolder(
+                List.of(states.getOrThrow(States.SOLID)),
+                List.of(structures.getOrThrow(Structures.CRYSTALLINE))
         ), false);
     }
 }

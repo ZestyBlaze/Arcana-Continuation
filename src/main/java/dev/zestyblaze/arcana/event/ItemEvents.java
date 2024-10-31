@@ -29,12 +29,12 @@ public class ItemEvents {
             }
             event.getToolTip().add(Component.literal(String.join(", ", stringList)));
 
+            List<Holder<Structure>> structures = data.structures();
             if (Screen.hasShiftDown()) {
-                List<Structure> structures = data.structures();
-                for (Structure structure : structures) {
-                    event.getToolTip().add(Component.literal(" -> " + Component.translatable(structure.key()).getString()));
+                for (Holder<Structure> structure : structures) {
+                    event.getToolTip().add(Component.literal(" -> " + Component.translatable(structure.value().key()).getString()));
                 }
-            } else {
+            } else if (!structures.isEmpty()) {
                 event.getToolTip().add(Component.translatable("tooltip.arcana.shift_to_view").withStyle(ChatFormatting.DARK_GRAY));
             }
         }

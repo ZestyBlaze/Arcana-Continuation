@@ -16,6 +16,7 @@ public class ArcanaRegistries {
     public static final ResourceKey<Registry<Structure>> STRUCTURE_KEY = ResourceKey.createRegistryKey(Arcana.id("structures"));
 
     public static final RegistryFixedCodec<State> STATE_REGISTRY = RegistryFixedCodec.create(STATE_KEY);
+    public static final RegistryFixedCodec<Structure> STRUCTURE_REGISTRY = RegistryFixedCodec.create(STRUCTURE_KEY);
 
     @SubscribeEvent
     public static void registerDatapacks(DataPackRegistryEvent.NewRegistry event) {
